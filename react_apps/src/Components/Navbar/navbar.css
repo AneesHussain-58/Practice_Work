@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.containers {
+    background: url('../Best_Todo_App/images/back_ing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.containers::after {
+    background: rgba(0, 0, 0, 0.6);
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.heading_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    z-index: 2;
+    color: wheat;
+}

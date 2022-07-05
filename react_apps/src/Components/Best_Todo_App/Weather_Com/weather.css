@@ -1,0 +1,90 @@
+#weather_section {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background: url('../../Best_Todo_App/images/weather.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#weather_section {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+}
+
+.inner_card {
+    margin: auto;
+    max-width: fit-content;
+    margin-top: 170px;
+}
+
+.weather_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr;
+    position: relative;
+    background-color: black;
+    color: white;
+    max-width: fit-content;
+}
+
+.weather_temp div {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather_condition {
+    font-size: 1.7rem;
+    font: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.place {
+    font-size: 0.8rem;
+    text-align: start;
+    margin-top: 0px;
+}
+
+.weather_data {
+    padding: 0px 10px;
+}
+
+.date {
+    font-size: 1.9rem;
+}
+
+.date_time {
+    background-color: brown;
+    text-align: center;
+}
+
+.weather_cloudes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.icons_data p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.icons_data div {
+    margin-top: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.icons {
+    font-size: 2rem;
+    margin-left: 22px;
+}

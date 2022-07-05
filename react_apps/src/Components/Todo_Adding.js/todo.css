@@ -1,0 +1,71 @@
+* {
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-attachment: fixed;
+    background: url('../../../public/Images/background.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.todo_container {
+    /* background-color: blue; */
+    height: 90vh;
+}
+
+.todo_card {
+    /* background-color: gray; */
+    background: url('../../../public/Images/form_back.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 70vh;
+    position: absolute;
+    margin-top: 100px;
+    box-shadow: 5px 10px 8px #a43a3a;
+    margin-left: 500px;
+}
+
+.inputValue {
+    display: flex;
+    flex-direction: row;
+    align-items: auto;
+}
+
+.deleteAll {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    position: relative;
+    background-color: gray;
+    /* transition: width 2s, height 2s, transform 2s; */
+
+}
+
+.deleteAll:hover {
+    width: 150px;
+    /* transform: rotate(360deg); */
+    overflow: hidden;
+    border-radius: 2rem;
+    background-color: rgb(27, 84, 6);
+}
+
+.inputValue button {
+    height: 45px;
+}
+
+.text_data {
+    background-color: aqua;
+    padding: 10px;
+    width: 200px;
+    border-radius: 2px;
+}

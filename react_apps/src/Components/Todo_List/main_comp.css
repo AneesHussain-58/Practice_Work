@@ -1,0 +1,31 @@
+.container_css {
+    background-color: red;
+    height: 100vh;
+}
+
+.cards_todoData {
+    width: 30%;
+    height: 20vh;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.todo_data {
+    align-items: center;
+    justify-content: center;
+}
+
+.fetched_Data {
+    width: 58%;
+}
+
+.fetched_Data p {
+    border: 2px solid black;
+
+}
+
+.fetched_Data button {
+    float: right;
+    height: 26px;
+    margin-right: -1px !important;
+}

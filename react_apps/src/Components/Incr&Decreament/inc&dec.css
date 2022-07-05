@@ -1,0 +1,18 @@
+.main_card {
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    /* background-color: brown; */
+    position: relative;
+}
+
+.buttons_group {
+    display: flex;
+    margin: auto;
+}
+
+.result_nums {
+    color: darkgray;
+    position: relative;
+    margin-top: 50px;
+}
